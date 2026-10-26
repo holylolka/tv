@@ -1,7 +1,7 @@
 // Собирает JSON-файлы стартового экрана MSX в папку msx/.
 // Запускается GitHub Actions каждый час (погода) и при каждом изменении репозитория.
 // Локально: node build.mjs  (адрес сайта берётся из SITE_URL или из имени владельца репозитория)
-import { readdirSync, writeFileSync, existsSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 
 const CITY = { name: "Иркутск", lat: 52.2978, lon: 104.2964, tz: "Asia/Irkutsk" };
 const GREETING = "Привет";
@@ -69,7 +69,14 @@ function photoList() {
   return readdirSync("photos")
     .filter((f) => /\.(jpe?g|png)$/i.test(f))
     .sort()
-    .map((f) => `${SITE}/photos/${encodeURIComponent(f)}`);
+    .map((f) => inline(`photos/${f}`));
+}
+
+// Картинки встраиваются прямо в JSON: githack отдаёт по http только текст,
+// а картинки перенаправляет на https, который телевизор 2014 года не открывает.
+function inline(file) {
+  const type = /\.png$/i.test(file) ? "image/png" : "image/jpeg";
+  return `data:${type};base64,${readFileSync(file).toString("base64")}`;
 }
 
 const w = await weather();
@@ -85,7 +92,7 @@ write("start.json", {
 // --- menu.json ---
 write("menu.json", {
   headline: GREETING,
-  background: `${SITE}/img/bg.jpg`,
+  background: inline("img/bg.jpg"),
   transparent: 1,
   style: "overlay",
   cache: false,
