@@ -192,8 +192,7 @@ write("forecast.json", {
         const wd = WEEKDAYS[dayOf(iso).getUTCDay()];
         return {
           icon: ic,
-          titleHeader: `${i === 0 ? "Сегодня" : i === 1 ? "Завтра" : wd}, ${shortDate(iso)}`,
-          title: `${deg(w.daily.temperature_2m_max[i])} / ${deg(w.daily.temperature_2m_min[i])}`,
+          title: `${i === 0 ? "Сегодня" : i === 1 ? "Завтра" : wd}, ${shortDate(iso)} · ${deg(w.daily.temperature_2m_max[i])} / ${deg(w.daily.temperature_2m_min[i])}`,
           titleFooter: `${d} · осадки ${w.daily.precipitation_probability_max[i] ?? 0}%`,
         };
       })
