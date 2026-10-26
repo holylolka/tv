@@ -72,8 +72,8 @@ function photoList() {
     .map((f) => inline(`photos/${f}`));
 }
 
-// Картинки встраиваются прямо в JSON: githack отдаёт по http только текст,
-// а картинки перенаправляет на https, который телевизор 2014 года не открывает.
+// Картинки встраиваются прямо в JSON, чтобы экран не зависел от того,
+// по какому адресу отдаются файлы (телевизор 2014 года не открывает https).
 function inline(file) {
   const type = /\.png$/i.test(file) ? "image/png" : "image/jpeg";
   return `data:${type};base64,${readFileSync(file).toString("base64")}`;

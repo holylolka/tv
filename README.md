@@ -4,9 +4,9 @@
 
 ## Как подключить на телевизоре
 
-MSX → Settings → Start Parameter → Setup → ввести `raw.githack.com/holylolka/tv/main`, замок НЕ включать.
+MSX → Settings → Start Parameter → Setup → ввести `holytv.duckdns.org`, замок НЕ включать.
 
-Телевизор 2014 года не открывает HTTPS-сертификат GitHub Pages (ошибка «status 0»), поэтому экран отдаётся по обычному http через raw.githack.com.
+Телевизор 2014 года не открывает HTTPS-сертификат GitHub Pages (ошибка «status 0»), поэтому экран отдаётся по обычному http через свой домен holytv.duckdns.org (Duck DNS → GitHub Pages, HTTPS не принудительный).
 
 ## Как устроено
 

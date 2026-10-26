@@ -70,7 +70,7 @@
           "icon": "photo-library",
           "title": "Фото",
           "titleFooter": "Пока пусто",
-          "action": "content:http://raw.githack.com/holylolka/tv/main/msx/photos.json"
+          "action": "content:http://holytv.duckdns.org/msx/photos.json"
         },
         {
           "type": "default",
@@ -79,7 +79,7 @@
           "icon": "filter-drama",
           "title": "Погода",
           "titleFooter": "На 7 дней",
-          "action": "content:http://raw.githack.com/holylolka/tv/main/msx/forecast.json"
+          "action": "content:http://holytv.duckdns.org/msx/forecast.json"
         }
       ]
     }

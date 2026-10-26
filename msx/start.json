@@ -1,5 +1,5 @@
 {
   "name": "Мой экран",
   "version": "1.0.0",
-  "parameter": "menu:http://raw.githack.com/holylolka/tv/main/msx/menu.json"
+  "parameter": "menu:http://holytv.duckdns.org/msx/menu.json"
 }
