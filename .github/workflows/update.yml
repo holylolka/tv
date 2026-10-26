@@ -23,7 +23,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Телевизор 2014 года не доверяет сертификату GitHub Pages, поэтому ссылки идут через http-зеркало githack
       - run: node build.mjs
+        env:
+          SITE_URL: http://raw.githack.com/${{ github.repository }}/main
       - name: Сохранить изменения
         run: |
           git config user.name "github-actions[bot]"

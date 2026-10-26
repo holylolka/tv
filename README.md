@@ -4,7 +4,9 @@
 
 ## Как подключить на телевизоре
 
-MSX → Настройки → Start Parameter → Setup → ввести `holylolka.github.io` и включить замок (HTTPS).
+MSX → Settings → Start Parameter → Setup → ввести `raw.githack.com/holylolka/holylolka.github.io/main`, замок НЕ включать.
+
+Телевизор 2014 года не открывает HTTPS-сертификат GitHub Pages (ошибка «status 0»), поэтому экран отдаётся по обычному http через raw.githack.com.
 
 ## Как устроено
 

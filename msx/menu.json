@@ -1,6 +1,6 @@
 {
   "headline": "Привет",
-  "background": "https://holylolka.github.io/img/bg.jpg",
+  "background": "http://raw.githack.com/holylolka/holylolka.github.io/main/img/bg.jpg",
   "transparent": 1,
   "style": "overlay",
   "cache": false,
@@ -9,17 +9,17 @@
     {
       "icon": "home",
       "label": "Главная",
-      "data": "https://holylolka.github.io/msx/home.json"
+      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/home.json"
     },
     {
       "icon": "filter-drama",
       "label": "Погода",
-      "data": "https://holylolka.github.io/msx/forecast.json"
+      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/forecast.json"
     },
     {
       "icon": "photo-library",
       "label": "Фото",
-      "data": "https://holylolka.github.io/msx/photos.json"
+      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/photos.json"
     }
   ]
 }

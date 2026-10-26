@@ -1,5 +1,5 @@
 {
   "name": "Мой экран",
   "version": "1.0.0",
-  "parameter": "menu:https://holylolka.github.io/msx/menu.json"
+  "parameter": "menu:http://raw.githack.com/holylolka/holylolka.github.io/main/msx/menu.json"
 }
