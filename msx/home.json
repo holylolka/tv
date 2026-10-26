@@ -23,7 +23,7 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:cloud} Иркутск",
-          "text": "{txt:msx-white:−5°} Пасмурно{br}Ощущается как −8°{br}Ветер 1 м/с · Влажность 86%{br}{br}{txt:msx-white-soft:Обновлено 01:15}"
+          "text": "{txt:msx-white:−5°} Пасмурно{br}Ощущается как −8°{br}Ветер 1 м/с · Влажность 85%{br}{br}{txt:msx-white-soft:Обновлено 01:30}"
         },
         {
           "type": "space",
@@ -70,7 +70,7 @@
           "icon": "photo-library",
           "title": "Фото",
           "titleFooter": "Пока пусто",
-          "action": "content:http://raw.githack.com/holylolka/holylolka.github.io/main/msx/photos.json"
+          "action": "content:http://raw.githack.com/holylolka/tv/main/msx/photos.json"
         },
         {
           "type": "default",
@@ -79,7 +79,7 @@
           "icon": "filter-drama",
           "title": "Погода",
           "titleFooter": "На 7 дней",
-          "action": "content:http://raw.githack.com/holylolka/holylolka.github.io/main/msx/forecast.json"
+          "action": "content:http://raw.githack.com/holylolka/tv/main/msx/forecast.json"
         }
       ]
     }

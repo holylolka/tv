@@ -9,17 +9,17 @@
     {
       "icon": "home",
       "label": "Главная",
-      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/home.json"
+      "data": "http://raw.githack.com/holylolka/tv/main/msx/home.json"
     },
     {
       "icon": "filter-drama",
       "label": "Погода",
-      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/forecast.json"
+      "data": "http://raw.githack.com/holylolka/tv/main/msx/forecast.json"
     },
     {
       "icon": "photo-library",
       "label": "Фото",
-      "data": "http://raw.githack.com/holylolka/holylolka.github.io/main/msx/photos.json"
+      "data": "http://raw.githack.com/holylolka/tv/main/msx/photos.json"
     }
   ]
 }
