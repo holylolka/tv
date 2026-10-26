@@ -101,14 +101,14 @@ write("menu.json", {
 const home = [];
 
 const today = w ? dayOf(w.daily.time[0]) : null;
+const dateLine = today ? `${WEEKDAYS_FULL[today.getUTCDay()]}, ${shortDate(w.daily.time[0])}{br}` : "";
 home.push({
   type: "space",
   layout: "0,0,8,2",
   headline: `{txt:msx-white:${GREETING}!}`,
-  text: [
-    today ? `${WEEKDAYS_FULL[today.getUTCDay()]}, ${shortDate(w.daily.time[0])}{br}` : "",
-    "{ico:msx-white:schedule} {txt:msx-white:{now:time:hh:mm}}",
-  ].join(""),
+  text: dateLine,
+  // Часы обновляются каждую секунду только через live-объект
+  live: { type: "schedule", from: 0, to: 9999999999999, running: { text: `${dateLine}{ico:msx-white:schedule} {now:time:hh:mm}` } },
 });
 
 if (w) {
