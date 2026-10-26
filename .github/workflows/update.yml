@@ -1,0 +1,35 @@
+name: Обновить экран
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # каждый час — свежая погода
+  push:
+    branches: [main]
+    paths-ignore: ["msx/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.mjs
+      - name: Сохранить изменения
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add msx
+          git diff --cached --quiet && exit 0
+          git commit -m "Обновить погоду"
+          git pull --rebase
+          git push

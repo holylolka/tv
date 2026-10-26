@@ -1,0 +1,79 @@
+{
+  "cache": false,
+  "headline": "Главная",
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "space",
+          "layout": "0,0,8,2",
+          "headline": "{txt:msx-white:Привет!}",
+          "text": "Вторник, 27 окт{br}{ico:msx-white:schedule} {txt:msx-white:{now:time:hh:mm}}"
+        },
+        {
+          "type": "space",
+          "layout": "8,0,4,3",
+          "color": "msx-glass",
+          "headline": "{ico:msx-white:cloud} Иркутск",
+          "text": "{txt:msx-white:−5°} Пасмурно{br}Ощущается как −9°{br}Ветер 1 м/с · Влажность 86%{br}{br}{txt:msx-white-soft:Обновлено 00:45}"
+        },
+        {
+          "type": "space",
+          "layout": "0,2,2,1",
+          "color": "msx-glass",
+          "headline": "{ico:msx-white:ac-unit} Сегодня",
+          "text": "+5° / −5°"
+        },
+        {
+          "type": "space",
+          "layout": "2,2,2,1",
+          "color": "msx-glass",
+          "headline": "{ico:msx-white:ac-unit} Завтра",
+          "text": "+7° / −1°"
+        },
+        {
+          "type": "space",
+          "layout": "4,2,2,1",
+          "color": "msx-glass",
+          "headline": "{ico:msx-white:ac-unit} Чт",
+          "text": "0° / −10°"
+        },
+        {
+          "type": "space",
+          "layout": "6,2,2,1",
+          "color": "msx-glass",
+          "headline": "{ico:msx-white:blur-on} Пт",
+          "text": "−2° / −13°"
+        },
+        {
+          "type": "default",
+          "layout": "0,3,4,3",
+          "color": "msx-glass",
+          "focus": true,
+          "icon": "movie",
+          "title": "Lampa",
+          "titleFooter": "Фильмы и сериалы",
+          "action": "link:http://lampa.mx"
+        },
+        {
+          "type": "default",
+          "layout": "4,3,4,3",
+          "color": "msx-glass",
+          "icon": "photo-library",
+          "title": "Фото",
+          "titleFooter": "Пока пусто",
+          "action": "content:https://holylolka.github.io/msx/photos.json"
+        },
+        {
+          "type": "default",
+          "layout": "8,3,4,3",
+          "color": "msx-glass",
+          "icon": "filter-drama",
+          "title": "Погода",
+          "titleFooter": "На 7 дней",
+          "action": "content:https://holylolka.github.io/msx/forecast.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "pages",
+  "headline": "Фото",
+  "template": {
+    "type": "default",
+    "layout": "0,0,3,2",
+    "color": "msx-glass",
+    "imageFiller": "cover",
+    "action": "image:context"
+  },
+  "items": [
+    {
+      "type": "space",
+      "layout": "0,0,12,2",
+      "color": "msx-glass",
+      "headline": "{ico:msx-white:photo-library} Здесь будут ваши фото",
+      "text": "Положите файлы .jpg или .png в папку photos репозитория — через пару минут они появятся на экране."
+    }
+  ]
+}
