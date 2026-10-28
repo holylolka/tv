@@ -8,13 +8,13 @@
           "type": "space",
           "layout": "0,0,8,2",
           "headline": "{txt:msx-white:Привет!}",
-          "text": "Среда, 28 окт{br}",
+          "text": "Четверг, 29 окт{br}",
           "live": {
             "type": "schedule",
             "from": 0,
             "to": 9999999999999,
             "running": {
-              "text": "Среда, 28 окт{br}{ico:msx-white:schedule} {now:time:hh:mm}"
+              "text": "Четверг, 29 окт{br}{ico:msx-white:schedule} {now:time:hh:mm}"
             }
           }
         },
@@ -22,36 +22,36 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:cloud} Иркутск",
-          "text": "{txt:msx-white:+1°} Пасмурно{br}Ощущается как −3°{br}Ветер 3 м/с · Влажность 90%{br}{br}{txt:msx-white-soft:Обновлено 20:30}"
+          "headline": "{ico:msx-white:ac-unit} Иркутск",
+          "text": "{txt:msx-white:0°} Снег{br}Ощущается как −5°{br}Ветер 4 м/с · Влажность 88%{br}{br}{txt:msx-white-soft:Обновлено 02:45}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Сегодня",
-          "text": "+5° / 0°"
+          "text": "0° / −11°"
         },
         {
           "type": "space",
           "layout": "2,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:ac-unit} Завтра",
-          "text": "0° / −11°"
+          "headline": "{ico:msx-white:blur-on} Завтра",
+          "text": "0° / −12°"
         },
         {
           "type": "space",
           "layout": "4,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Пт",
-          "text": "0° / −12°"
+          "headline": "{ico:msx-white:ac-unit} Сб",
+          "text": "0° / −4°"
         },
         {
           "type": "space",
           "layout": "6,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:ac-unit} Сб",
-          "text": "0° / −4°"
+          "headline": "{ico:msx-white:ac-unit} Вс",
+          "text": "−3° / −11°"
         },
         {
           "type": "default",
