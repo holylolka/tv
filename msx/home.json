@@ -23,7 +23,7 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:cloud} Иркутск",
-          "text": "{txt:msx-white:+4°} Пасмурно{br}Ощущается как +1°{br}Ветер 1 м/с · Влажность 56%{br}{br}{txt:msx-white-soft:Обновлено 13:30}"
+          "text": "{txt:msx-white:+1°} Пасмурно{br}Ощущается как −3°{br}Ветер 3 м/с · Влажность 90%{br}{br}{txt:msx-white-soft:Обновлено 20:30}"
         },
         {
           "type": "space",
@@ -37,7 +37,7 @@
           "layout": "2,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Завтра",
-          "text": "0° / −10°"
+          "text": "0° / −11°"
         },
         {
           "type": "space",
@@ -51,7 +51,7 @@
           "layout": "6,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Сб",
-          "text": "0° / −3°"
+          "text": "0° / −4°"
         },
         {
           "type": "default",
