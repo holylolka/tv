@@ -10,39 +10,39 @@
   },
   "items": [
     {
-      "icon": "blur-on",
-      "title": "Сегодня, 30 окт · 0° / −13°",
-      "titleFooter": "Туман · осадки 0%"
+      "icon": "ac-unit",
+      "title": "Сегодня, 31 окт · +2° / −4°",
+      "titleFooter": "Снегопад · осадки 45%"
     },
     {
       "icon": "ac-unit",
-      "title": "Завтра, 31 окт · +2° / −4°",
-      "titleFooter": "Снегопад · осадки 71%"
-    },
-    {
-      "icon": "ac-unit",
-      "title": "Вс, 1 ноя · −2° / −8°",
-      "titleFooter": "Снегопад · осадки 53%"
+      "title": "Завтра, 1 ноя · −2° / −8°",
+      "titleFooter": "Снегопад · осадки 59%"
     },
     {
       "icon": "blur-on",
       "title": "Пн, 2 ноя · −6° / −10°",
-      "titleFooter": "Туман · осадки 14%"
+      "titleFooter": "Туман · осадки 18%"
     },
     {
       "icon": "ac-unit",
       "title": "Вт, 3 ноя · +2° / −10°",
-      "titleFooter": "Небольшой снег · осадки 60%"
+      "titleFooter": "Небольшой снег · осадки 78%"
     },
     {
       "icon": "ac-unit",
       "title": "Ср, 4 ноя · −5° / −14°",
-      "titleFooter": "Небольшой снег · осадки 53%"
+      "titleFooter": "Небольшой снег · осадки 72%"
     },
     {
       "icon": "blur-on",
       "title": "Чт, 5 ноя · −10° / −15°",
-      "titleFooter": "Туман · осадки 8%"
+      "titleFooter": "Туман · осадки 6%"
+    },
+    {
+      "icon": "blur-on",
+      "title": "Пт, 6 ноя · −8° / −15°",
+      "titleFooter": "Туман · осадки 0%"
     }
   ]
 }
