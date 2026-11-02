@@ -23,35 +23,35 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:filter-drama} Иркутск",
-          "text": "{txt:msx-white:−11°} Переменная облачность{br}Ощущается как −15°{br}Ветер 1 м/с · Влажность 86%{br}{br}{txt:msx-white-soft:Обновлено 06:45}"
+          "text": "{txt:msx-white:−9°} Переменная облачность{br}Ощущается как −13°{br}Ветер 1 м/с · Влажность 79%{br}{br}{txt:msx-white-soft:Обновлено 10:15}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Сегодня",
-          "text": "−3° / −11°"
+          "text": "−2° / −11°"
         },
         {
           "type": "space",
           "layout": "2,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Завтра",
-          "text": "−3° / −7°"
+          "text": "−3° / −6°"
         },
         {
           "type": "space",
           "layout": "4,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Ср",
-          "text": "−7° / −14°"
+          "text": "−6° / −11°"
         },
         {
           "type": "space",
           "layout": "6,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Чт",
-          "text": "−11° / −17°"
+          "headline": "{ico:msx-white:ac-unit} Чт",
+          "text": "−11° / −15°"
         },
         {
           "type": "default",
