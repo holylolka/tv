@@ -8,13 +8,13 @@
           "type": "space",
           "layout": "0,0,8,2",
           "headline": "{txt:msx-white:Привет!}",
-          "text": "Понедельник, 2 ноя{br}",
+          "text": "Вторник, 3 ноя{br}",
           "live": {
             "type": "schedule",
             "from": 0,
             "to": 9999999999999,
             "running": {
-              "text": "Понедельник, 2 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
+              "text": "Вторник, 3 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
             }
           }
         },
@@ -23,35 +23,35 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:cloud} Иркутск",
-          "text": "{txt:msx-white:−3°} Пасмурно{br}Ощущается как −7°{br}Ветер 1 м/с · Влажность 81%{br}{br}{txt:msx-white-soft:Обновлено 18:45}"
+          "text": "{txt:msx-white:−3°} Пасмурно{br}Ощущается как −6°{br}Ветер 1 м/с · Влажность 92%{br}{br}{txt:msx-white-soft:Обновлено 04:30}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Сегодня",
-          "text": "−3° / −11°"
+          "headline": "{ico:msx-white:ac-unit} Сегодня",
+          "text": "−1° / −6°"
         },
         {
           "type": "space",
           "layout": "2,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:ac-unit} Завтра",
-          "text": "−2° / −6°"
+          "text": "−6° / −11°"
         },
         {
           "type": "space",
           "layout": "4,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:ac-unit} Ср",
-          "text": "−7° / −12°"
+          "headline": "{ico:msx-white:ac-unit} Чт",
+          "text": "−11° / −15°"
         },
         {
           "type": "space",
           "layout": "6,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Чт",
-          "text": "−11° / −16°"
+          "headline": "{ico:msx-white:blur-on} Пт",
+          "text": "−5° / −15°"
         },
         {
           "type": "default",
