@@ -22,8 +22,8 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:wb-sunny} Иркутск",
-          "text": "{txt:msx-white:−9°} Малооблачно{br}Ощущается как −14°{br}Ветер 2 м/с · Влажность 65%{br}{br}{txt:msx-white-soft:Обновлено 14:00}"
+          "headline": "{ico:msx-white:cloud} Иркутск",
+          "text": "{txt:msx-white:−11°} Пасмурно{br}Ощущается как −16°{br}Ветер 1 м/с · Влажность 86%{br}{br}{txt:msx-white-soft:Обновлено 22:30}"
         },
         {
           "type": "space",
@@ -51,7 +51,7 @@
           "layout": "6,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Сб",
-          "text": "−2° / −16°"
+          "text": "−4° / −15°"
         },
         {
           "type": "default",
