@@ -11,13 +11,13 @@
   "items": [
     {
       "icon": "blur-on",
-      "title": "Сегодня, 5 ноя · −11° / −16°",
-      "titleFooter": "Туман · осадки 10%"
+      "title": "Сегодня, 5 ноя · −11° / −17°",
+      "titleFooter": "Туман · осадки 14%"
     },
     {
       "icon": "blur-on",
-      "title": "Завтра, 6 ноя · −10° / −16°",
-      "titleFooter": "Туман · осадки 2%"
+      "title": "Завтра, 6 ноя · −9° / −16°",
+      "titleFooter": "Туман · осадки 0%"
     },
     {
       "icon": "blur-on",
@@ -25,24 +25,24 @@
       "titleFooter": "Туман · осадки 0%"
     },
     {
-      "icon": "blur-on",
+      "icon": "cloud",
       "title": "Вс, 8 ноя · +3° / −5°",
-      "titleFooter": "Туман · осадки 0%"
+      "titleFooter": "Пасмурно · осадки 0%"
     },
     {
       "icon": "blur-on",
       "title": "Пн, 9 ноя · +7° / −5°",
-      "titleFooter": "Туман · осадки 2%"
+      "titleFooter": "Туман · осадки 0%"
     },
     {
       "icon": "cloud",
-      "title": "Вт, 10 ноя · +3° / −4°",
-      "titleFooter": "Пасмурно · осадки 0%"
+      "title": "Вт, 10 ноя · +3° / −3°",
+      "titleFooter": "Пасмурно · осадки 2%"
     },
     {
       "icon": "ac-unit",
       "title": "Ср, 11 ноя · +2° / −2°",
-      "titleFooter": "Небольшой снег · осадки 10%"
+      "titleFooter": "Небольшой снег · осадки 22%"
     }
   ]
 }
