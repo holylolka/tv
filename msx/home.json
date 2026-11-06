@@ -8,13 +8,13 @@
           "type": "space",
           "layout": "0,0,8,2",
           "headline": "{txt:msx-white:Привет!}",
-          "text": "Пятница, 6 ноя{br}",
+          "text": "Суббота, 7 ноя{br}",
           "live": {
             "type": "schedule",
             "from": 0,
             "to": 9999999999999,
             "running": {
-              "text": "Пятница, 6 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
+              "text": "Суббота, 7 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
             }
           }
         },
@@ -23,35 +23,35 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Иркутск",
-          "text": "{txt:msx-white:−14°} Туман{br}Ощущается как −18°{br}Ветер 0 м/с · Влажность 91%{br}{br}{txt:msx-white-soft:Обновлено 23:45}"
+          "text": "{txt:msx-white:−15°} Туман{br}Ощущается как −19°{br}Ветер 1 м/с · Влажность 91%{br}{br}{txt:msx-white-soft:Обновлено 05:15}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Сегодня",
-          "text": "−11° / −17°"
+          "text": "−3° / −16°"
         },
         {
           "type": "space",
           "layout": "2,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Завтра",
-          "text": "−4° / −17°"
+          "headline": "{ico:msx-white:cloud} Завтра",
+          "text": "+4° / −5°"
         },
         {
           "type": "space",
           "layout": "4,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:cloud} Вс",
-          "text": "+4° / −5°"
+          "headline": "{ico:msx-white:cloud} Пн",
+          "text": "+4° / −6°"
         },
         {
           "type": "space",
           "layout": "6,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:cloud} Пн",
-          "text": "+6° / −5°"
+          "headline": "{ico:msx-white:blur-on} Вт",
+          "text": "+7° / −2°"
         },
         {
           "type": "default",
