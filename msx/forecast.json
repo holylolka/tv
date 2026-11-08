@@ -27,22 +27,22 @@
     {
       "icon": "cloud",
       "title": "Ср, 11 ноя · +3° / −4°",
-      "titleFooter": "Пасмурно · осадки 4%"
+      "titleFooter": "Пасмурно · осадки 2%"
     },
     {
       "icon": "blur-on",
       "title": "Чт, 12 ноя · +5° / −4°",
-      "titleFooter": "Туман · осадки 45%"
+      "titleFooter": "Туман · осадки 33%"
     },
     {
       "icon": "ac-unit",
       "title": "Пт, 13 ноя · −1° / −7°",
-      "titleFooter": "Снег · осадки 59%"
+      "titleFooter": "Снег · осадки 65%"
     },
     {
       "icon": "cloud",
       "title": "Сб, 14 ноя · −3° / −11°",
-      "titleFooter": "Пасмурно · осадки 6%"
+      "titleFooter": "Пасмурно · осадки 2%"
     }
   ]
 }

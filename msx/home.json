@@ -22,8 +22,8 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:brightness-3} Иркутск",
-          "text": "{txt:msx-white:−3°} Ясно{br}Ощущается как −8°{br}Ветер 4 м/с · Влажность 85%{br}{br}{txt:msx-white-soft:Обновлено 04:00}"
+          "headline": "{ico:msx-white:filter-drama} Иркутск",
+          "text": "{txt:msx-white:−2°} Переменная облачность{br}Ощущается как −8°{br}Ветер 5 м/с · Влажность 86%{br}{br}{txt:msx-white-soft:Обновлено 08:30}"
         },
         {
           "type": "space",
