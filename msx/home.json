@@ -23,7 +23,7 @@
           "layout": "8,0,4,3",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Иркутск",
-          "text": "{txt:msx-white:−7°} Туман{br}Ощущается как −11°{br}Ветер 1 м/с · Влажность 99%{br}{br}{txt:msx-white-soft:Обновлено 03:30}"
+          "text": "{txt:msx-white:−4°} Туман{br}Ощущается как −8°{br}Ветер 2 м/с · Влажность 84%{br}{br}{txt:msx-white-soft:Обновлено 07:30}"
         },
         {
           "type": "space",
