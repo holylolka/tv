@@ -8,13 +8,13 @@
           "type": "space",
           "layout": "0,0,8,2",
           "headline": "{txt:msx-white:Привет!}",
-          "text": "Четверг, 12 ноя{br}",
+          "text": "Пятница, 13 ноя{br}",
           "live": {
             "type": "schedule",
             "from": 0,
             "to": 9999999999999,
             "running": {
-              "text": "Четверг, 12 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
+              "text": "Пятница, 13 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
             }
           }
         },
@@ -22,36 +22,36 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Иркутск",
-          "text": "{txt:msx-white:−3°} Туман{br}Ощущается как −7°{br}Ветер 2 м/с · Влажность 99%{br}{br}{txt:msx-white-soft:Обновлено 18:45}"
+          "headline": "{ico:msx-white:cloud} Иркутск",
+          "text": "{txt:msx-white:−5°} Пасмурно{br}Ощущается как −9°{br}Ветер 1 м/с · Влажность 96%{br}{br}{txt:msx-white-soft:Обновлено 02:45}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Сегодня",
-          "text": "0° / −5°"
+          "text": "−2° / −8°"
         },
         {
           "type": "space",
           "layout": "2,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Завтра",
-          "text": "−3° / −8°"
+          "text": "−6° / −10°"
         },
         {
           "type": "space",
           "layout": "4,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Сб",
-          "text": "−5° / −9°"
+          "headline": "{ico:msx-white:blur-on} Вс",
+          "text": "−6° / −12°"
         },
         {
           "type": "space",
           "layout": "6,2,2,1",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Вс",
-          "text": "−4° / −11°"
+          "headline": "{ico:msx-white:ac-unit} Пн",
+          "text": "−6° / −9°"
         },
         {
           "type": "default",
