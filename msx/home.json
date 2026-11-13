@@ -22,8 +22,8 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:cloud} Иркутск",
-          "text": "{txt:msx-white:−5°} Пасмурно{br}Ощущается как −9°{br}Ветер 1 м/с · Влажность 96%{br}{br}{txt:msx-white-soft:Обновлено 02:45}"
+          "headline": "{ico:msx-white:blur-on} Иркутск",
+          "text": "{txt:msx-white:−6°} Туман{br}Ощущается как −9°{br}Ветер 0 м/с · Влажность 98%{br}{br}{txt:msx-white-soft:Обновлено 08:00}"
         },
         {
           "type": "space",
