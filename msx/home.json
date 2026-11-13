@@ -8,13 +8,13 @@
           "type": "space",
           "layout": "0,0,8,2",
           "headline": "{txt:msx-white:Привет!}",
-          "text": "Пятница, 13 ноя{br}",
+          "text": "",
           "live": {
             "type": "schedule",
             "from": 0,
             "to": 9999999999999,
             "running": {
-              "text": "Пятница, 13 ноя{br}{ico:msx-white:schedule} {now:time:hh:mm}"
+              "text": "{ico:msx-white:schedule} {now:time:hh:mm}"
             }
           }
         },
@@ -22,36 +22,8 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Иркутск",
-          "text": "{txt:msx-white:−6°} Туман{br}Ощущается как −9°{br}Ветер 0 м/с · Влажность 98%{br}{br}{txt:msx-white-soft:Обновлено 08:00}"
-        },
-        {
-          "type": "space",
-          "layout": "0,2,2,1",
-          "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Сегодня",
-          "text": "−2° / −8°"
-        },
-        {
-          "type": "space",
-          "layout": "2,2,2,1",
-          "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Завтра",
-          "text": "−6° / −10°"
-        },
-        {
-          "type": "space",
-          "layout": "4,2,2,1",
-          "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Вс",
-          "text": "−6° / −12°"
-        },
-        {
-          "type": "space",
-          "layout": "6,2,2,1",
-          "color": "msx-glass",
-          "headline": "{ico:msx-white:ac-unit} Пн",
-          "text": "−6° / −9°"
+          "headline": "{ico:msx-white:cloud-off} Иркутск",
+          "text": "Погода временно недоступна"
         },
         {
           "type": "default",
