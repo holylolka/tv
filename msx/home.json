@@ -22,15 +22,15 @@
           "type": "space",
           "layout": "8,0,4,3",
           "color": "msx-glass",
-          "headline": "{ico:msx-white:blur-on} Иркутск",
-          "text": "{txt:msx-white:−6°} Туман{br}Ощущается как −10°{br}Ветер 1 м/с · Влажность 90%{br}{br}{txt:msx-white-soft:Обновлено 10:30}"
+          "headline": "{ico:msx-white:brightness-3} Иркутск",
+          "text": "{txt:msx-white:−7°} Ясно{br}Ощущается как −11°{br}Ветер 1 м/с · Влажность 94%{br}{br}{txt:msx-white-soft:Обновлено 18:30}"
         },
         {
           "type": "space",
           "layout": "0,2,2,1",
           "color": "msx-glass",
           "headline": "{ico:msx-white:blur-on} Сегодня",
-          "text": "−3° / −10°"
+          "text": "−2° / −10°"
         },
         {
           "type": "space",
